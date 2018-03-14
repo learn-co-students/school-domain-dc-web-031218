@@ -35,8 +35,6 @@ class School
   end
 
   def sort
-    output = {}
-
     @roster.each_key do |k_grade|
       @roster[k_grade].sort!
     end
